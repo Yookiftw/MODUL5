@@ -2,6 +2,11 @@ public class RekeningBank {
     private String noRekening;
     private double saldo;
 
+    public RekeningBank(String noRekening, double saldo){
+        this.noRekening = noRekening;
+        this.saldo = saldo;
+    }
+    
     public double getSaldo(){
         return saldo;
     }
