@@ -4,9 +4,11 @@ public class Karyawan {
     protected String departemen;
 
     //Soal 1
-    Karyawan(String idKaryawan, String nama) {
+    Karyawan(String idKaryawan, String nama, double gajiPokok, String departemen) {
         setIdKaryawan(idKaryawan);
         setNama(nama);
+        setGajiPokok(gajiPokok);
+        setDepartemen(departemen);
     }
 
     public String getidKaryawan() {
